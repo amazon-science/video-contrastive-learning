@@ -8,7 +8,7 @@ from PIL import Image
 
 
 def loading_ucf_lists():
-    dataset_root = "/home/ubuntu/.mxnet/datasets/ucf101"
+    dataset_root = "/home/ubuntu/data/ucf101"
     split = 'split_1'
     # data frame root
     dataset_frame_root = os.path.join(dataset_root, 'rawframes')
@@ -27,7 +27,7 @@ def loading_ucf_lists():
 
 
 def loading_hmdb_lists():
-    dataset_root = "/home/ubuntu/.mxnet/datasets/hmdb51/"
+    dataset_root = "/home/ubuntu/data/hmdb51/"
     split = 'split_1'
     # data frame root
     dataset_frame_root = os.path.join(dataset_root, 'rawframes')
