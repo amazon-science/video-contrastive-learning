@@ -16,7 +16,7 @@ For examples, if your input images are stored on `./images` directory, and the o
 
   Note, you must transfer the custom weights to torchvision style firstly.
 
-  You can refer the [README](../weights/README.md) to do it, or download our pretrained model ([Download Link](s3://haofeik-data/VCLR/pretrained/vclr_torch.pth)).
+  You can refer the [README](../weights/README.md) to do it, or download our pretrained model ([Download Link](https://haofeik-data.s3.amazonaws.com/VCLR/pretrained/vclr_torch.pth)).
 
   ```shell
   python feat_visualization.py --image-dir images --output-dir results --weights-type custom --weights-path vclr_torch.pth

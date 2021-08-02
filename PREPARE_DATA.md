@@ -64,7 +64,7 @@ kinetics400_30fps_frames/
 
 ## [UCF101](https://www.crcv.ucf.edu/data/UCF101.php)
 
-Please refer [gluoncv tutorials](https://cv.gluon.ai/build/examples_datasets/ucf101.html) to prepare this dataset.
+Please refer [gluoncv tutorials](https://cv.gluon.ai/build/examples_datasets/ucf101.html) to prepare this dataset. Suppose the videos are stored at `~/data/ucf101`.
 
 - The final data structure should look like
 ```
@@ -95,7 +95,7 @@ ucf101/
 
 ## [HMDB51](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/)
 
-Please refer [gluoncv tutorials](https://cv.gluon.ai/build/examples_datasets/hmdb51.html) to prepare this dataset.
+Please refer [gluoncv tutorials](https://cv.gluon.ai/build/examples_datasets/hmdb51.html) to prepare this dataset. Suppose the videos are stored at `~/data/hmdb51`.
 
 - The final data structure should look like
 ```
@@ -122,7 +122,7 @@ hmdb51/
 
 ## [SomethingSomethingV2](https://20bn.com/datasets/something-something)
 
-Please refer [gluoncv tutorials](https://cv.gluon.ai/build/examples_datasets/somethingsomethingv2.html) to prepare this dataset.
+Please refer [gluoncv tutorials](https://cv.gluon.ai/build/examples_datasets/somethingsomethingv2.html) to prepare this dataset. Suppose the videos are stored at `~/data/sthv2`.
 
 - The final data structure should look like
 ```

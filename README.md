@@ -88,7 +88,7 @@ Here, we use mmaction2 for both tasks. If you are not familiar with mmaction2, y
   ```
 - Step2: Prepare the pretrained weights
 
-  Our pretrained backbone have different format with the backbone of mmaction2, it should be transferred to mmaction2 format. We provide the transferred version of our K400 pretrained weights, [TSN](https://haofeik-data.s3.amazonaws.com/VCLR/pretrained/vclr_mm.pth) and [TSM](https://haofeik-data.s3.amazonaws.com/VCLR/pretrained/vclr_mm_tsm.pth).
+  Our pretrained backbone have different format with the backbone of mmaction2, it should be transferred to mmaction2 format. We provide the transferred version of our K400 pretrained weights, [TSN](https://haofeik-data.s3.amazonaws.com/VCLR/pretrained/vclr_mm.pth) and [TSM](https://haofeik-data.s3.amazonaws.com/VCLR/pretrained/vclr_mm_tsm.pth). We also provide the script for transferring weights, you can find it [here](./tools/weights/README.md).
 
   Moving the pretrained weights to `checkpoints` directory:
   ```shell
@@ -225,6 +225,11 @@ For each dataset, the train and test setting can be found in the configuration f
   | Arch | Dataset | Finetuned model | AUC | AR@100 |
   | :------: | :-----: | :-----: | :-----: | :-----: |
   | BMN | ActivityNet | [Download link](https://haofeik-data.s3.amazonaws.com/VCLR/action_localization/mm_anet_bmn.pth) | 65.5 | 73.8 |
+
+
+## Feature visualization
+
+We provide our feature visualization code at [here](./tools/feature_visualization/README.md).
 
 
 ## Security
