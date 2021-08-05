@@ -1,3 +1,12 @@
+"""The functions for building the Kinetics400 dataset class for pretraining
+Code partially borrowed from
+https://github.com/YihengZhang-CV/SeCo-Sequence-Contrastive-Learning/blob/main/dataset/dataset_kinetics_v2.py.
+
+MIT License
+Copyright (c) 2020 YihengZhang-CV
+"""
+
+
 import torch.utils.data
 import os
 import copy

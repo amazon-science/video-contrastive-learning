@@ -1,3 +1,11 @@
+"""The functions for VCLR self-supervised pretraining
+Code partially borrowed from
+https://github.com/YihengZhang-CV/SeCo-Sequence-Contrastive-Learning/blob/main/train_inter_intra_order.py.
+
+MIT License
+Copyright (c) 2020 YihengZhang-CV
+"""
+
 import os
 import json
 import mmcv

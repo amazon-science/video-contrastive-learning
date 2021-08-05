@@ -1,3 +1,12 @@
+"""The functions for VCLR video retrieval downstream (train a kNN)
+Code partially borrowed from
+https://github.com/YihengZhang-CV/SeCo-Sequence-Contrastive-Learning/blob/main/eval_svm_feature_perf.py.
+
+MIT License
+Copyright (c) 2020 YihengZhang-CV
+"""
+
+
 import numpy as np
 import argparse
 import os

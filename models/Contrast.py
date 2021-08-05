@@ -1,3 +1,11 @@
+"""The functions for MoCoV2 contrastive loss
+Code partially borrowed from
+https://github.com/YihengZhang-CV/SeCo-Sequence-Contrastive-Learning/blob/main/seco/Contrast.py.
+
+MIT License
+Copyright (c) 2020 YihengZhang-CV
+"""
+
 import torch
 import torch.nn as nn
 import math

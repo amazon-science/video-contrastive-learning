@@ -1,3 +1,11 @@
+"""The functions for some tools
+Code partially borrowed from
+https://github.com/YihengZhang-CV/SeCo-Sequence-Contrastive-Learning/blob/main/seco/util.py.
+
+MIT License
+Copyright (c) 2020 YihengZhang-CV
+"""
+
 import argparse
 import random
 import torch

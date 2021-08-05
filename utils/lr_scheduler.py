@@ -1,3 +1,11 @@
+"""The functions for the learning rate scheduler
+Code borrowed from
+https://github.com/YihengZhang-CV/SeCo-Sequence-Contrastive-Learning/blob/main/seco/lr_scheduler.py.
+
+MIT License
+Copyright (c) 2020 YihengZhang-CV
+"""
+
 from torch.optim.lr_scheduler import CosineAnnealingLR
 import warnings
 import math

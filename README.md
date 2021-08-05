@@ -145,7 +145,7 @@ For each dataset, the train and test setting can be found in the configuration f
       --eval top_k_accuracy mean_class_accuracy --out result.json
     ```
 - SomethingSomethingV2: TSM
-  - config file: [tsm_sthv2.py](https://github.com/KuangHaofei/mmaction2/blob/master/configs/recognition/tsn/vclr/tsm_sthv2.py)
+  - config file: [tsm_sthv2.py](https://github.com/KuangHaofei/mmaction2/blob/master/configs/recognition/tsm/vclr/tsm_sthv2.py)
   - train command:
     ```shell
     ./tools/dist_train.sh configs/recognition/tsm/vclr/tsm_sthv2.py 8 \

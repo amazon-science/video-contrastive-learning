@@ -1,3 +1,11 @@
+"""The functions for VCLR linear evaluation (extract feature of videos)
+Code partially borrowed from
+https://github.com/YihengZhang-CV/SeCo-Sequence-Contrastive-Learning/blob/main/eval_svm_feature_extract.py.
+
+MIT License
+Copyright (c) 2020 YihengZhang-CV
+"""
+
 import torch
 import torch.backends.cudnn as cudnn
 import torch.nn as nn

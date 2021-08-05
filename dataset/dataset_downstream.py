@@ -1,3 +1,11 @@
+"""The functions for defining the dataset class of downstream tasks, such as UCF101, HMDB51, etc.
+Code partially borrowed from
+https://github.com/YihengZhang-CV/SeCo-Sequence-Contrastive-Learning/blob/main/dataset/dataset_kinetics_v2.py.
+
+MIT License
+Copyright (c) 2020 YihengZhang-CV
+"""
+
 import torch.utils.data
 import os
 import random

@@ -1,3 +1,12 @@
+"""The functions for VCLR models
+Code partially borrowed from
+https://github.com/YihengZhang-CV/SeCo-Sequence-Contrastive-Learning/blob/main/seco/resnet_mlp.py.
+
+MIT License
+Copyright (c) 2020 YihengZhang-CV
+"""
+
+
 import torch
 import torch.nn as nn
 
