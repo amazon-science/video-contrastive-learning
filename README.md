@@ -1,6 +1,6 @@
 ## Video Contrastive Learning with Global Context (VCLR)
 
-This is the official PyTorch implementation of our [VCLR paper](?).
+This is the official PyTorch implementation of our [VCLR paper](https://arxiv.org/abs/2108.02722).
 
 
 ## Install dependencies
