@@ -2,6 +2,15 @@
 
 This is the official PyTorch implementation of our [VCLR paper](https://arxiv.org/abs/2108.02722).
 
+```
+@article{kuang2021vclr,
+  title={Video Contrastive Learning with Global Context},
+  author={Haofei Kuang, Yi Zhu, Zhi Zhang, Xinyu Li, Joseph Tighe, Sören Schwertfeger, Cyrill Stachniss, Mu Li},
+  journal={arXiv preprint arXiv:2108.02722},
+  year={2021}
+}
+```
+
 
 ## Install dependencies
 - environments
